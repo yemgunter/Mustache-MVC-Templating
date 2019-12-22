@@ -1,6 +1,7 @@
 <div>
 <h1> Mustache - MVC Templating 3+ Page Website </h1>
 <p>Simple Mustache template using proper modularity and division of concerns.</p>
+<p><i>This is an ongoing work on architecture, proper division of concerns, mobile-first code and responsiveness.</i></p>
 </div>
 
 <div>
