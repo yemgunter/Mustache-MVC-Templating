@@ -1,0 +1,49 @@
+<!-- ****************************************************
+Name: Yolanda Gunter
+Assignment: Coding 05
+Purpose: Templating & Making a 3+ Page Website
+Notes: Learning then implementing Mustache to create templates.
+********************************************************* -->
+
+<div class="body-div">
+    <div class="form-container">
+        <p><h2>Contact Me</h2></p>
+        <p>Please fill out the form below to send a message.</p>
+        <div id="msg">
+            <!-- Blank area for form message to User -->
+            <br>
+        </div>
+        <div id="form-div">
+            <!-- adding  form attributes -->
+            <form id="contact-form" name="contact-form" action="email.php" method="post">
+                <div class="input-div">
+                    <input type="text" class="form-input"
+                           id="name" name="name" placeholder="Your Name" maxlength="64" value="">
+                </div>
+                <div class="input-div">
+                    <input type="email" class="form-input"
+                           id="email" name="email" placeholder="Return Email" value="">
+                </div>
+                <div class="input-div">
+                    <input type="email" class="form-input"
+                           id="email2" name="email2" placeholder="Re-Enter Email" value="">
+                </div>
+                <div class="input-div">
+                    <input type="text" class="form-input"
+                           id="subject" name="subject" placeholder="Subject" maxlength="64" value="">
+                </div>
+                <div class="input-div">
+                    <textarea id="message" name="message" class="form-input"
+                              placeholder="Message" maxlength="1000" rows="10"></textarea>
+                </div>
+                <div class="input-div">
+                    <!--Generic buttons for handlers that will work as submit and clear buttons. This is proper professional technique. -->
+                    <button id="contact-send" type="button" class="">Send</button>&nbsp;&nbsp;
+                    <button id="contact-clear" type="button" class="">Clear</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- JS at bottom of body here -->
+    <script src="main.js"></script>
+</div>
